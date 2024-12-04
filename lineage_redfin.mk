@@ -28,3 +28,14 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=redfin
 
 $(call inherit-product, vendor/google/redfin/redfin-vendor.mk)
+
+# Rising
+RISING_MAINTAINER := Ash
+TARGET_ENABLE_BLUR := false
+TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_SUPPORTS_CALL_RECORDING := true
+TARGET_NGA_SUPPORTED := true
+#TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+TARGET_PREBUILT_GOOGLE_CAMERA := true
+WITH_GMS := true
